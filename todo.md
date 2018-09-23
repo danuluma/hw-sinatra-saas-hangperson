@@ -7,10 +7,10 @@ A) concerned about use of attr_accessor
       encourages tight coupling of objects --> should prefer loose coupling
   2) design issues in the code, design issues in the tests
     - should we leave these until we've checked the current code works with 2.4?
-  
+
 B) concerned about downcase! on incoming parameter - should maybe not change
    and create new local parameter
-  
+
 C) should the engine be sanitising the input?
 
 D) create a separate Letter class to take on those responsibilities
